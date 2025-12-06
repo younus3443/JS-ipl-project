@@ -11,35 +11,36 @@ js-ipl-data-project/
 │   │   └── deliveries.csv
 │   │
 │   ├── server/
-│   │   ├── index.js
-│   │   ├── 1-matches-per-year.js
-│   │   ├── 2-matches-won-per-team-per-year.js
-│   │   ├── 3-extra-runs-conceded-2016.js
-│   │   ├── 4-top-10-economical-bowlers-2015.js
-│   │   ├── 5-toss-winner-match-winner.js
-│   │   ├── 6-player-of-match-each-season.js
-│   │   ├── 7-strike-rate-per-season.js
-│   │   ├── 8-player-dismissal-count.js
-│   │   └── 9-best-economy-super-over.js
+│   │   ├── matches_per_year.js
+│   │   ├── matchesWonPerTeamPerYear.js
+│   │   ├── extraRunsPerTeam.js
+│   │   ├── top10Bowlers2015.js
+│   │   ├── teamTossAndMatchWon.js
+│   │   ├── playerOfTheMatch.js
+│   │   ├── strikeRateofBatsman.js
+│   │   ├── dismissedPlayer.js
+│   │   └── bowlerEconomy.js
 │   │
 │   ├── utils/
-│   │   └── saveToJSON.js
+│   │   ├── saveToJSON.js
+│   │   └── csvTojson
 │   │
 │   └── public/
 │       └── output/
 │           ├── matchesPerYear.json
 │           ├── matchesWonPerTeamPerYear.json
-│           ├── extraRunsPerTeam2016.json
-│           ├── top10Economical2015.json
-│           ├── tossAndMatchWinners.json
-│           ├── playerOfMatchEachSeason.json
-│           ├── strikeRatePerSeason.json
-│           ├── playerDismissalCount.json
-│           └── bestEconomySuperOver.json
+│           ├── extraRunsConcededByTeam.json
+│           ├── top10EconomicalBowler2015.json
+│           ├── tossAndMatchWon.json
+│           ├── playerOfMatchSeason.json
+│           ├── strikeRatePerOfBatsman.json
+│           ├── playerDismissedByAnotherPlayer.json
+│           └── bowlerEconomy.json
 │
 ├── package.json
 ├── package-lock.json
-└── .gitignore
+├── .gitignore
+└── README.md
 ```
 
 📘 Technologies Used
